@@ -13,3 +13,87 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome";
+
+
+body {
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+.quote-box {
+  border: medium solid red;
+  margin-top: 100px;
+  padding-bottom: 50px;
+  background-color: white;
+  border-radius: 15px;
+  color: red;
+}
+
+.made {
+  margin-top: 10px;
+}
+
+.share {
+  float: left;
+  margin-left: 40px;
+  color: white;
+  background-color: red;
+}
+
+.twitter-share-button {
+  color: white;
+}
+
+.new-quote {
+  float: right;
+  margin-right: 40px;
+  color: white;
+  background-color: red;
+  font-size: 120%;
+}
+
+p a{
+color: white;
+}
+
+p a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn a:hover{
+  color: white;
+}
+.btn:active {
+  color:white;
+}
+
+.btn:focus {
+  color: white;
+}
+
+.btn a:active {
+  color:white;
+}
+
+.btn a:focus {
+  color: white;
+}
+
+.quote{
+  font-size: 170%;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.author{
+  font-size: 120%;
+  padding-left: 20%;
+}
